@@ -1,0 +1,99 @@
+table {
+    margin-top:40px ;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color:#181819;
+    font-family: "等线";
+    font-size: 20px;
+}
+ 
+td,th {
+    padding: 0;
+}
+
+
+.pure-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: none;
+}
+ 
+.pure-table caption {
+    color: rgb(113, 125, 127);
+    
+    padding: 1em 0;
+    text-align: center;
+}
+ 
+.pure-table td,.pure-table th {
+    border:none;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    padding: .5em 1em;
+}
+ 
+.pure-table thead {
+    font-weight:normal;
+    background-color: #F7F7F7;
+    font-family: "Microsoft JhengHei UI Light";
+    font-size: 17px;
+    color:#bab8b8;
+    text-align: left;
+    vertical-align: bottom;
+}
+ 
+.pure-table td {
+    background-color: transparent;
+}
+ 
+.pure-table-odd td {
+    background-color: #F7F7F7;
+}
+.mYMv{
+    display: inline-block;
+    width: 33px;
+    height: 16px;
+    background-position: -40px -280px;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+    color:#2caf6f;
+    border:2px #2caf6f solid;
+    border-radius:4px; 
+    padding-top: 3px;
+    text-align: center;
+}
+#mySongList:hover .mySongPlayAndAdd{
+    display: inline-block;
+}
+.mySongPlayAndAdd{
+    width: 100px;
+    margin-right: 5px;
+    display: none;
+    float: right;
+}
+.myPlayico, .myAddico{
+    margin-top: 20%;
+
+    width: 30px;
+    height: 30px;
+    display: inline-block;  
+}
+.myPlayico{
+    background-image: url("../images/playhui.png");
+}
+.myAddico{
+    background-image: url("../images/addhui.png");
+}
+.myPlayico:hover {
+    background-image: url("../images/playlv.png");
+}
+.myAddico:hover {
+    background-image: url("../images/addlv.png");
+}
+td a{
+    display: inline-block;
+}
